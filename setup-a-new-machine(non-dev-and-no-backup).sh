@@ -14,22 +14,6 @@ export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
 ##############################################################################################################
 
 
-
-##############################################################################################################
-### remaining configuration
-###
-
-# set up osx defaults
-#   maybe something else in here https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
-sh .osx
-
-# setup and run Rescuetime!
-
-###
-##############################################################################################################
-
-
-
 ##############################################################################################################
 ### symlinks to link dotfiles into ~/
 ###

@@ -98,39 +98,6 @@ export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
 
 
 
-
-##############################################################################################################
-### install of common things
-###
-
-# autocompletion for git branch names https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
-curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
-
-# github.com/thebitguru/play-button-itunes-patch
-# disable itunes opening on media keys
-git clone https://github.com/thebitguru/play-button-itunes-patch ~/code/play-button-itunes-patch
-
-
-##############################################################################################################
-### remaining configuration
-###
-
-# go read mathias, paulmillr, gf3, alraa's dotfiles to see what's worth stealing.
-
-# prezto and antigen communties also have great stuff
-#   github.com/sorin-ionescu/prezto/blob/master/modules/utility/init.zsh
-
-# set up osx defaults
-#   maybe something else in here https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
-sh .osx
-
-# setup and run Rescuetime!
-
-###
-##############################################################################################################
-
-
-
 ##############################################################################################################
 ### symlinks to link dotfiles into ~/
 ###
